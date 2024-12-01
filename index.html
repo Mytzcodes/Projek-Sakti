@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Daftar siswa</title> 
 	<style type="text/css">
-        body {
+       body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
@@ -19,6 +19,7 @@
 
         table {
             width: 100%;
+            max-width: 800px; /* Set a max width for the table */
             border-collapse: collapse;
             margin: 20px auto;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -49,8 +50,33 @@
             height: auto;
             border-radius: 50%;
         }
-		
 
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            th, td {
+                padding: 10px; /* Reduce padding */
+                font-size: 14px; /* Reduce font size */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px; /* Smaller heading on mobile */
+            }
+
+            h3 {
+                font-size: 18px; /* Smaller subheading on mobile */
+            }
+
+            th, td {
+                padding: 8px; /* Further reduce padding */
+                font-size: 12px; /* Further reduce font size */
+            }
+
+            img {
+                max-width: 60px; /* Smaller images on very small screens */
+            }
+        }
     </style>
 </head>
 <body>
