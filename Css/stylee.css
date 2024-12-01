@@ -1,0 +1,61 @@
+img {
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.porto {
+    display: flex;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3773d4;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ th {
+    padding: 5%;
+}
+
+td, tr {
+    text-align: center;
+    padding: 20px;
+}
+
+.Back {
+    position: absolute;
+    right: 5%;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    background-color: #57918a;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+button:hover {
+    color: rgb(60, 209, 159);
+    background-color: #366632;
+
+}
