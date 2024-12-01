@@ -72,8 +72,8 @@ button:hover {
     
     .Buttons { /*Untuk Membuat Side Bar seperti Adsense / Iklan*/
         position: fixed;
-        bottom: 15px;
-        right: 10px;
+        bottom: 20px;
+        right: 15px;
         display: flex;
         flex-direction: row;
         
