@@ -39,9 +39,10 @@ td, tr {
     padding: 20px;
 }
 
-.Back {
+.Buttons {
     position: absolute;
     right: 5%;
+    display: flex;
 }
 
 button {
@@ -57,5 +58,34 @@ button {
 button:hover {
     color: rgb(60, 209, 159);
     background-color: #366632;
+
+}
+
+@media (max-width: 800px){
+
+    main {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    
+    .Buttons { /*Untuk Membuat Side Bar seperti Adsense / Iklan*/
+        position: fixed;
+        bottom: 15px;
+        right: 10px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        border: none;
+        background-color: #57918a;
+        color: antiquewhite;
+        font-weight: bolder;
+    }
 
 }
